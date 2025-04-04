@@ -160,3 +160,6 @@ button[type=submit]{
     font-family: 'Barlow', sans-serif;
     font-size: 15px;
 }
+.icon{
+    color:lightgrey
+}
