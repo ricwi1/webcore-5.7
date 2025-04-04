@@ -29,8 +29,11 @@ h1,h2{
     color:#2A4A5C; 
     font-weight: normal;
 } 
-p,.checkbox{
-    color:lightslategray;
+.text,button[type=submit],.checkbox{
+    color:#96A5B1;
+}
+h1+p,h2+p{
+    color: #617580;
 }
 .button-container{
     display:flex;
@@ -138,4 +141,22 @@ h2+p{
     margin-top: 20px;
     margin-bottom: 50px;
     background-color: white;
+}
+a:link{
+    color:#0076B6;
+}
+a:visited{
+    color:purple;
+}
+button[type=submit]{
+    width:250px;
+    height: 50px;
+    text-align: center;
+    color:white;
+    background-color:#4da4f0 ;
+    border:none;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
 }
