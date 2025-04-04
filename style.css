@@ -17,7 +17,7 @@ body {
 }
 .right{
     flex:1;
-    background-color: white;
+    background-color:#FFFFFF;
     padding:50px;
 }
 .logo{
@@ -74,7 +74,7 @@ p,.checkbox{
     justify-content: center;
     margin-left:100px;
     margin-right:100px;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .line {
@@ -91,6 +91,7 @@ p,.checkbox{
 .input-container {
     display:flex;
     gap: 40px;
+    margin-bottom: 50px;
 }
 
 .input-container input {
@@ -117,4 +118,24 @@ input[type="email"] {
     color: gray;
     background: white;
     pointer-events: none;
+}
+h2+p{
+    margin-bottom: 50px;
+}
+.radio-container label{
+    margin-left:40px;
+ }
+ .radio-container label:first-of-type{
+     margin-left: 0px;
+ }
+ .text{
+    position: left;
+    width:250px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07); 
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: white;
 }
