@@ -32,11 +32,19 @@ h1,h2{
 p,.checkbox{
     color:lightslategray;
 }
+.button-container{
+    display:flex;
+    gap: 40px;
+    margin-top : 50px;
+    margin-bottom: 50px;
+
+}
 .button-logo{
     width:20px;
 }
 .facebook{
     display:flex;
+    flex:1;
     background-color:#255A9B;
     border:none;
     width:250px;
@@ -50,6 +58,7 @@ p,.checkbox{
 .linkedin{
     background-color:#0076B6;
     display:flex;
+    flex:1;
     border:none;
     width:250px;
     height:50px; 
@@ -59,4 +68,24 @@ p,.checkbox{
     color: white;
     font-family: 'Barlow', sans-serif;
 }
+.or-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom:50px;
+}
 
+.line {
+    height: 1px;
+    width:40%;
+    background-color: #ccc; 
+    margin: 0 10px; 
+}
+
+.or-text {
+    color: black; 
+    font-size: 14px;
+    
+}
