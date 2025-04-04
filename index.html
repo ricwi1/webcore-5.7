@@ -13,13 +13,48 @@
     <div class="right">
         <h1>Get iintoo it today</h1>
         <p>There is no charge or obligation upon registration.</p>
-        <button class="facebook">
-            <img src="photo\facebook.svg" alt="flpgo" class="logo">
-            Register with Facebook
-        </button>
-        <button class="linkedin">
-            <img src="photo\linkedin.svg" alt="llpgo" class="logo">
-            Register with Linkedin
-        </button>
+        <div class="button-conteiner">
+          <button class="facebook">
+              <img src="photo\facebook.svg" alt="flpgo" class="logo">
+               Register with Facebook
+          </button>
+          <button class="linkedin">
+              <img src="photo\linkedin.svg" alt="llpgo" class="logo">
+               Register with Linkedin
+          </button>
+        </div>
+        <div class="or-container">
+            <span class="line"></span>
+            <span class="or-text">OR</span>
+            <span class="line"></span>
+        </div>
+        <from>
+          <div class="input-container">
+            <div class="input-email">
+                <input type="email" id="email" placeholder=" " required>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-tel">
+                <input type="tel" id="tel" placeholder=" ">
+                <label for="tel">Phone</label>
+            </div>
+          </div>
+            <div class="radio-container">
+                <h2>What type of investor are you?</h2>
+                <p>Select the type of investor you are below.</p>
+                <label><input type="radio" name="investor" value="individual">Individual</label>
+                <label><input type="radio" name="investor" value="business">Business</label>
+                <label><input type="radio" name="investor" value="ira">IRA</label>
+                <label><input type="radio" name="investor" value="trust">Trust</label>
+            </div>
+                <p class="text">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tetant in common.</p>
+            <label class="checkbox">
+                <input type="checkbox" required>
+                I agree to the terms and receiving notifications from iintoo <a href="">View full terms</a>
+            </label>
+            <br>
+                <button type="submit" class="submit-btn">Create Account</button>
+        </from>
+    </div>    
 </body>
 </html>
