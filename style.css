@@ -15,3 +15,48 @@ body {
     min-width: 100px;
     width:700px;
 }
+.right{
+    flex:1;
+    background-color: white;
+    padding:50px;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+h1,h2{
+    margin-bottom:10px;
+    color:#2A4A5C; 
+    font-weight: normal;
+} 
+p,.checkbox{
+    color:lightslategray;
+}
+.button-logo{
+    width:20px;
+}
+.facebook{
+    display:flex;
+    background-color:#255A9B;
+    border:none;
+    width:250px;
+    height:50px; 
+    align-items: center; 
+    justify-content: flex-start;
+    gap: 10px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+.linkedin{
+    background-color:#0076B6;
+    display:flex;
+    border:none;
+    width:250px;
+    height:50px; 
+    align-items: center; 
+    justify-content: flex-start;
+    gap: 10px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
