@@ -45,10 +45,9 @@ h1+p,h2+p{
 .button-logo{
     width:20px;
 }
-.facebook{
+.button-container>button{
     display:flex;
     flex:1;
-    background-color:#255A9B;
     border:none;
     width:250px;
     height:50px; 
@@ -58,18 +57,11 @@ h1+p,h2+p{
     color: white;
     font-family: 'Barlow', sans-serif;
 }
+.facebook{
+    background-color:#255A9B;
+}
 .linkedin{
     background-color:#0076B6;
-    display:flex;
-    flex:1;
-    border:none;
-    width:250px;
-    height:50px; 
-    align-items: center; 
-    justify-content: flex-start;
-    gap: 10px;
-    color: white;
-    font-family: 'Barlow', sans-serif;
 }
 .or-container {
     display: flex;
@@ -98,8 +90,9 @@ h1+p,h2+p{
 }
 
 .input-container input {
-    width: 250px;
+    width: 300px;
     height: 50px;
+    gap:50px;
     border-top-right-radius: 5px;
     border: 1px solid lightgrey;
     padding: 20px 10px 5px;
